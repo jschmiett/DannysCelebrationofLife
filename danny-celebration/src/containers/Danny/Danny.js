@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function Footer() {
+export default function Danny() {
     return (
         <>
             <div>
-                <h2>Pasta Dinner</h2>
+                <h2>About Danny</h2>
             </div>
             <div>
-                <p>Pasta Dinner</p>
+                <p>Lorem ipsum</p>
             </div>
         </>
 
