@@ -7,7 +7,7 @@ export default function Footer() {
                 <h2>Sunday Brunch</h2>
             </div>
             <div>
-                <p>Sunday Brunch</p>
+                <p>from 10am to 1pm at Becky Schmiett's home</p>
             </div>
 
         </>
