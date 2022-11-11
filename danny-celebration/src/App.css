@@ -42,6 +42,10 @@ h2.pastaDinnerTitle {
   color: aqua;
 }
 
+img.danny-image {
+  margin-top: 20px;
+}
+
 .navbar-nav {
   display: flex;
   flex-direction: row;
