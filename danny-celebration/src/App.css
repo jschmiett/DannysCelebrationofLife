@@ -46,6 +46,18 @@ img.danny-image {
   margin-top: 20px;
 }
 
+img.friday-image {
+  margin-top: 20px;
+}
+
+img.saturday-image {
+  margin-top: 20px;
+}
+
+img.sunday-image {
+  margin-top: 20px;
+}
+
 .navbar-nav {
   display: flex;
   flex-direction: row;

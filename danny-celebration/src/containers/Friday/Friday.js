@@ -4,6 +4,9 @@ export default function Friday() {
     return (
         <>
             <div>
+                <img className="friday-image" src="https://image-placeholder.com/images/actual-size/320x320.png"></img>
+            </div>
+            <div>
                 <h2 className="pastaDinnerTitle">Pasta Dinner</h2>
             </div>
             <div>

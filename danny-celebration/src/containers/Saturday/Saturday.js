@@ -1,8 +1,11 @@
 import React from "react";
 
-export default function Footer() {
+export default function Saturday() {
     return (
         <>
+            <div>
+                <img className="saturday-image" src="https://image-placeholder.com/images/actual-size/320x320.png"></img>
+            </div>
             <div>
                 <h2>Family BBQ</h2>
             </div>
