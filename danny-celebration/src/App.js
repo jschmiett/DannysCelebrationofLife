@@ -8,11 +8,11 @@ import PageContent from './containers/index'
 function App() {
   const [currentPage, setCurrentPage] = useState('Danny');
   return (
-    <>
+    <div className='App'>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <PageContent currentPage={currentPage} />
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -1,3 +1,13 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
 .App {
   text-align: center;
 }
@@ -25,13 +35,29 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
+}
+
+h2.pastaDinnerTitle {
+  color: aqua;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-start;
+}
+
+.nav-item {
+  margin: 10px;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

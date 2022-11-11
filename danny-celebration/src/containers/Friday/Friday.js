@@ -4,7 +4,7 @@ export default function Friday() {
     return (
         <>
             <div>
-                <h2>Pasta Dinner</h2>
+                <h2 className="pastaDinnerTitle">Pasta Dinner</h2>
             </div>
             <div>
                 <p>Hosted by Lee and Vicki Hall</p>

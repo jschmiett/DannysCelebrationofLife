@@ -1,11 +1,18 @@
 import React from 'react';
+import styled from 'styled-components';
+import { NavTabsWrapper } from '../../styled/styled';
+
+
+// import Nav from 'react-bootstrap/Nav'
+// import Navbar from 'react-bootstrap/Navbar'
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 export default function NavTabs({ currentPage, handlePageChange }) {
     return (
         <>
-            <ul className="nav nav-tabs">
+            {/* <NavTabsWrapper> */}
+            <ul className="navbar-nav">
                 <li className="nav-item">
                     <a
                         href="#danny"
@@ -49,6 +56,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
                 </li>
 
             </ul>
+            {/* </NavTabsWrapper> */}
         </>
     );
 }
